@@ -1,0 +1,17 @@
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.Core.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.Entities.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.csprojAssemblyReference.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.AssemblyInfo.cs
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.deps.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.runtimeconfig.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.runtimeconfig.dev.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.Core.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\bin\Debug\netcoreapp3.1\OtoServis.Entities.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.csproj.CopyComplete
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.DataAccess\obj\Debug\netcoreapp3.1\OtoServis.DataAccess.genruntimeconfig.cache

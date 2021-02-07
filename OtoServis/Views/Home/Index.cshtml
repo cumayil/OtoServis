@@ -1,0 +1,114 @@
+﻿@model OtoServis.UI.Models.ServiceOperationViewModel
+@{
+    ViewData["Title"] = "Home Page";
+    DateTime DateOfArrival = DateTime.Today;
+}
+
+
+<main>
+    <div class="container-fluid">
+        @using (Html.BeginForm("Add", "Home", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken();
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-muted text-small mb-2">ARAÇ BİLGİLERİ</p>
+
+
+                            <div class="row form-group col-md-12">
+                                @Html.Label("Araç Plakası")
+                                @Html.TextBoxFor(m => m.serviceOperation.LicensePlate, new { @class = "form-control" })
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    @Html.Label("Marka")
+                                    @Html.TextBoxFor(m => m.serviceOperation.Brand, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group col-md-6">
+                                    @Html.Label("Model")
+                                    @Html.TextBoxFor(m => m.serviceOperation.Model, new { @class = "form-control" })
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    @Html.Label("KM")
+                                    @Html.TextBoxFor(m => m.serviceOperation.KM, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group col-md-6">
+                                    @Html.Label("Tarih")
+                                    <input class="datepicker form-control" name="serviceOperation.DateOfArrival" data-date-format="dd/mm/yyyy" value="@DateOfArrival.ToShortDateString()">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-muted text-small mb-2">SERVİS HİZMETLERİ</p>
+
+
+
+                            <div class="row">
+                                <div class="form-group col-md-3">
+
+                                    @Html.Label("Şasi Yağlama")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Şasi Yağlama" name="serviceOperation.ChassisLubrication">
+
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Antifiriz Ekleme")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Antifiriz Ekleme" name="serviceOperation.AddingAntifreeze">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Yağ Değişimi")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Yağ Değişimi" name="serviceOperation.OilChange">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Lastik Rot Ayarı")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Lastik Rot Ayarı" name="serviceOperation.TireWheelAlignment">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Hava Filtresi Değişimi")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Hava Filtresi Değişimi" name="serviceOperation.AirFilterReplacement">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Soğutma Sistemi Temizliği")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Sağoutma Sistemi Temizliği" name="serviceOperation.CoolingSystemCleaning">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Yağ Filtresi Değişimi")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Yağ Filtresi Değişimi" name="serviceOperation.OilFilterReplacement">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    @Html.Label("Balans Ayarı")
+                                    <input class="form-control col-md-2 ml-5" type="checkbox" value="Balans Ayarı" name="serviceOperation.BalanceAdjustment">
+                                </div>
+
+
+                            </div>
+                            <div class="row form-group col-md-12">
+                                @Html.Label("Diğer Bakımlar")
+                                @Html.TextBoxFor(m => m.serviceOperation.OtherOperations, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @Html.HiddenFor(m => m.serviceOperation.Id)
+
+
+                <button type="submit" class="btn btn-success">Araç Bilgilerini Kaydet</button>
+
+            </div>
+        }
+    </div>
+
+
+</main>

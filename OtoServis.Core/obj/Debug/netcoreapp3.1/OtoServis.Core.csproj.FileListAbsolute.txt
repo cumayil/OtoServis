@@ -1,0 +1,12 @@
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\bin\Debug\netcoreapp3.1\OtoServis.Core.deps.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\bin\Debug\netcoreapp3.1\OtoServis.Core.runtimeconfig.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\bin\Debug\netcoreapp3.1\OtoServis.Core.runtimeconfig.dev.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\bin\Debug\netcoreapp3.1\OtoServis.Core.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\bin\Debug\netcoreapp3.1\OtoServis.Core.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.csprojAssemblyReference.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.AssemblyInfoInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.AssemblyInfo.cs
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.csproj.CoreCompileInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Core\obj\Debug\netcoreapp3.1\OtoServis.Core.genruntimeconfig.cache

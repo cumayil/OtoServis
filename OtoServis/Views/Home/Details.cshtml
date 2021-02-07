@@ -1,0 +1,170 @@
+﻿@model OtoServis.UI.Models.ServiceOperationViewModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<main>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-muted text-small mb-2">ARAÇ BİLGİLERİ</p>
+
+
+                        <div class="row form-group col-md-12">
+                            @Html.Label("Araç Plakası")
+                            @Html.TextBoxFor(m => m.serviceOperation.LicensePlate, new { @class = "form-control", disabled = "disabled" })
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                @Html.Label("Marka")
+                                @Html.TextBoxFor(m => m.serviceOperation.Brand, new { @class = "form-control", disabled = "disabled" })
+                            </div>
+                            <div class="form-group col-md-6">
+                                @Html.Label("Model")
+                                @Html.TextBoxFor(m => m.serviceOperation.Model, new { @class = "form-control", disabled="disabled"})
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                @Html.Label("KM")
+                                @Html.TextBoxFor(m => m.serviceOperation.KM, new { @class = "form-control", disabled = "disabled" })
+                            </div>
+                            <div class="form-group col-md-6">
+                                @Html.Label("Tarih")
+                                @*<input class="datepicker form-control" name="serviceOperation.DateOfArrival" data-date-format="dd/mm/yyyy" value="ToShortDateString()">*@
+                                @Html.TextBoxFor(m => m.serviceOperation.DateOfArrival, new { @class = "form-control", disabled = "disabled" })
+                            </div>
+                        </div>
+                        <div class="form-group col-md-12">
+                            
+                            @if (Model.serviceOperation.KM < 10000)
+                            {
+                                @Html.Label("Sıradaki Bakım 10000 KM'de")
+                            }
+                            else if (Model.serviceOperation.KM > 10000 && Model.serviceOperation.KM < 20000)
+                            {
+                                @Html.Label("Sıradaki Bakım 20000 KM'de")
+                            }
+                            else if (Model.serviceOperation.KM > 20000 && Model.serviceOperation.KM < 50000)
+                            {
+                                @Html.Label("Sıradaki Bakım 50000 KM'de")
+                            }
+                            else if (Model.serviceOperation.KM > 50000 && Model.serviceOperation.KM < 100000)
+                            {
+                                @Html.Label("Sıradaki Bakım 100000 KM'de")
+                            }
+                            else if (Model.serviceOperation.KM > 100000 && Model.serviceOperation.KM < 200000)
+                            {
+                                @Html.Label("Sıradaki Bakım 200000 KM'de")
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-muted text-small mb-2">UYGULANAN SERVİS HİZMETLERİ</p>
+
+
+
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.ChassisLubrication == null)
+                                {
+
+                                }
+                                else
+                                {
+                                    @Html.Label(Model.serviceOperation.ChassisLubrication)
+                                }
+
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.AddingAntifreeze == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.AddingAntifreeze)
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.OilChange == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.OilChange)
+
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.TireWheelAlignment == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.TireWheelAlignment)
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.AirFilterReplacement == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.AirFilterReplacement)
+
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.CoolingSystemCleaning == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.CoolingSystemCleaning)
+
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.OilFilterReplacement == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.OilFilterReplacement)
+
+                            </div>
+                            <div class="form-group col-md-3">
+                                @if (Model.serviceOperation.BalanceAdjustment == null)
+                                {
+
+                                }
+                                @Html.Label(Model.serviceOperation.BalanceAdjustment)
+
+                            </div>
+
+
+                        </div>
+                        <div class="row form-group col-md-12">
+                            @Html.Label(Model.serviceOperation.OtherOperations)
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @Html.HiddenFor(m => m.serviceOperation.Id)
+
+
+
+
+        </div>
+
+    </div>
+
+
+</main>
+

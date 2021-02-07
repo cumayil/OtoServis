@@ -1,0 +1,16 @@
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Business.deps.json
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Business.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Business.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Core.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Entities.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.DataAccess.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Entities.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\bin\Debug\netcoreapp3.1\OtoServis.Core.pdb
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.csprojAssemblyReference.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.AssemblyInfoInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.AssemblyInfo.cs
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.csproj.CoreCompileInputs.cache
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.csproj.CopyComplete
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.dll
+C:\Users\Cuma Yıldırım\source\repos\OtoServis\OtoServis.Business\obj\Debug\netcoreapp3.1\OtoServis.Business.pdb

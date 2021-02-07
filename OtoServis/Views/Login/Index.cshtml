@@ -1,0 +1,53 @@
+﻿@model OtoServis.UI.Models.UserModel
+@{
+    Layout = null;
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OtoServis Giriş</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<main>
+    <div id="login">
+        <h3 class="text-center text-white pt-5"></h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">OTO SERVİS'E HOŞGELDİNİZ</h3>
+                            @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken();
+                                <div class="form-group">
+
+                                    @Html.TextBoxFor(m => m.Users.Email, new { @class = "form-control form-control-user", placeholder = "Email" })
+                                </div>
+                                <div class="form-group">
+                                    @Html.PasswordFor(m => m.Users.Password, new { @class = "form-control form-control-user", placeholder = "Password" })
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="GİRİŞ">
+                                </div>
+
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2021 - OtoServis
+    </div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
